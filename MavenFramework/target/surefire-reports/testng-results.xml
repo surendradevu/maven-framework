@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-01T00:28:48Z" name="Component Tests" finished-at="2021-08-01T00:28:56Z" duration-ms="8360">
+    <groups>
+    </groups>
+    <test started-at="2021-08-01T00:28:48Z" name="a-t1" finished-at="2021-08-01T00:28:56Z" duration-ms="8360">
+      <class name="test.LaunchApp">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LaunchApp@3cce5371]" started-at="2021-07-31T20:28:48Z" name="setup" finished-at="2021-07-31T20:28:50Z" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyForm()[pri:0, instance:test.LaunchApp@3cce5371]" started-at="2021-07-31T20:28:50Z" name="verifyForm" finished-at="2021-07-31T20:28:53Z" duration-ms="3523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LaunchApp@3cce5371]" started-at="2021-07-31T20:28:53Z" name="tearDown" finished-at="2021-07-31T20:28:53Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LaunchApp -->
+      <class name="test.LaunchApp2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.LaunchApp2@5e7cd6cc]" started-at="2021-07-31T20:28:53Z" name="setup" finished-at="2021-07-31T20:28:55Z" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="submitForm()[pri:0, instance:test.LaunchApp2@5e7cd6cc]" started-at="2021-07-31T20:28:55Z" name="submitForm" finished-at="2021-07-31T20:28:56Z" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LaunchApp2@5e7cd6cc]" started-at="2021-07-31T20:28:56Z" name="tearDown" finished-at="2021-07-31T20:28:56Z" duration-ms="286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LaunchApp2 -->
+    </test> <!-- a-t1 -->
+  </suite> <!-- Component Tests -->
+</testng-results>
